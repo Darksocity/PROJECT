@@ -1,0 +1,42 @@
+# IMDb Clone
+
+This is a simple IMDb Clone web application built using HTML, CSS, and vanilla.js.
+
+## Features
+
+- Search any movie from the API and display the search results on the frontend.
+- As you type in the search input, the search results will update dynamically like Google suggestions.
+- Each search result movie has a favorite button, clicking on which adds the movie to "My Favourite Movies" list.
+- Clicking on any search result movie opens a new page with more information about that movie.
+- The movie page displays details such as the movie's name, photo, plot, etc.
+- The "My Favourite Movies" page displays a list of all the favorite movies.
+- The list of favorite movies is persistent, and it retains the same movies even after closing or refreshing the browser.
+- Each movie in the favorite list has a "Remove from Favourites" button to remove the movie from the list.
+
+## Project Structure
+
+The project consists of the following files:
+
+- `index.html`: The home page HTML file that contains the search functionality and displays the search results.
+- `styles.css`: The CSS file that provides the styles and layout for the web application.
+- `script.js`: The main JavaScript file that handles the search functionality, API requests, and dynamically updating the UI.
+- `movie.html`: The movie page HTML file that displays detailed information about a specific movie.
+- `movie.js`: The JavaScript file that fetches and displays the movie details on the movie page.
+
+## Usage
+
+To run the IMDb Clone web application, simply open the `index.html` file in a web browser. The application requires an internet connection to fetch movie data from the OMDB API.
+
+## Dependencies
+
+The IMDb Clone project has the following dependencies:
+
+- Bootstrap 4.3.1: A CSS framework used for styling the web application. It is included via a CDN in the HTML files.
+
+## Contributing
+
+Contributions to the IMDb Clone project are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+The IMDb Clone project is licensed under the [MIT License](LICENSE).
